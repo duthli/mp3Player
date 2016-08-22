@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21A4A151D6B68B6002BC47A /* duration.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A0D1D6B68B6002BC47A /* duration.png */; };
+		B21A4A161D6B68B6002BC47A /* maxVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A0E1D6B68B6002BC47A /* maxVolume.png */; };
+		B21A4A171D6B68B6002BC47A /* miniVolume.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A0F1D6B68B6002BC47A /* miniVolume.png */; };
+		B21A4A181D6B68B6002BC47A /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A101D6B68B6002BC47A /* music.mp3 */; };
+		B21A4A191D6B68B6002BC47A /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A111D6B68B6002BC47A /* pause.png */; };
+		B21A4A1A1D6B68B6002BC47A /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A121D6B68B6002BC47A /* play.png */; };
+		B21A4A1B1D6B68B6002BC47A /* thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A131D6B68B6002BC47A /* thumb.png */; };
+		B21A4A1C1D6B68B6002BC47A /* thumbHightLight.png in Resources */ = {isa = PBXBuildFile; fileRef = B21A4A141D6B68B6002BC47A /* thumbHightLight.png */; };
 		B278596F1D6401DD006A6916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B278596E1D6401DD006A6916 /* AppDelegate.swift */; };
 		B27859711D6401DD006A6916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27859701D6401DD006A6916 /* ViewController.swift */; };
 		B27859741D6401DD006A6916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B27859721D6401DD006A6916 /* Main.storyboard */; };
@@ -15,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21A4A0D1D6B68B6002BC47A /* duration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duration.png; sourceTree = "<group>"; };
+		B21A4A0E1D6B68B6002BC47A /* maxVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maxVolume.png; sourceTree = "<group>"; };
+		B21A4A0F1D6B68B6002BC47A /* miniVolume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miniVolume.png; sourceTree = "<group>"; };
+		B21A4A101D6B68B6002BC47A /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		B21A4A111D6B68B6002BC47A /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		B21A4A121D6B68B6002BC47A /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B21A4A131D6B68B6002BC47A /* thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumb.png; sourceTree = "<group>"; };
+		B21A4A141D6B68B6002BC47A /* thumbHightLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbHightLight.png; sourceTree = "<group>"; };
 		B278596B1D6401DD006A6916 /* UIsliderUIswitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIsliderUIswitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B278596E1D6401DD006A6916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B27859701D6401DD006A6916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				B278596E1D6401DD006A6916 /* AppDelegate.swift */,
+				B27859801D640264006A6916 /* resource */,
 				B27859701D6401DD006A6916 /* ViewController.swift */,
 				B27859721D6401DD006A6916 /* Main.storyboard */,
 				B27859751D6401DD006A6916 /* Assets.xcassets */,
@@ -62,6 +79,21 @@
 				B278597A1D6401DD006A6916 /* Info.plist */,
 			);
 			path = UIsliderUIswitch;
+			sourceTree = "<group>";
+		};
+		B27859801D640264006A6916 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				B21A4A0D1D6B68B6002BC47A /* duration.png */,
+				B21A4A0E1D6B68B6002BC47A /* maxVolume.png */,
+				B21A4A0F1D6B68B6002BC47A /* miniVolume.png */,
+				B21A4A101D6B68B6002BC47A /* music.mp3 */,
+				B21A4A111D6B68B6002BC47A /* pause.png */,
+				B21A4A121D6B68B6002BC47A /* play.png */,
+				B21A4A131D6B68B6002BC47A /* thumb.png */,
+				B21A4A141D6B68B6002BC47A /* thumbHightLight.png */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +128,7 @@
 				TargetAttributes = {
 					B278596A1D6401DD006A6916 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4955F5CENX;
 					};
 				};
 			};
@@ -122,8 +155,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21A4A1B1D6B68B6002BC47A /* thumb.png in Resources */,
 				B27859791D6401DD006A6916 /* LaunchScreen.storyboard in Resources */,
+				B21A4A151D6B68B6002BC47A /* duration.png in Resources */,
+				B21A4A1A1D6B68B6002BC47A /* play.png in Resources */,
+				B21A4A191D6B68B6002BC47A /* pause.png in Resources */,
+				B21A4A171D6B68B6002BC47A /* miniVolume.png in Resources */,
+				B21A4A1C1D6B68B6002BC47A /* thumbHightLight.png in Resources */,
+				B21A4A161D6B68B6002BC47A /* maxVolume.png in Resources */,
 				B27859761D6401DD006A6916 /* Assets.xcassets in Resources */,
+				B21A4A181D6B68B6002BC47A /* music.mp3 in Resources */,
 				B27859741D6401DD006A6916 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,10 +290,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UIsliderUIswitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hung.UIsliderUIswitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +304,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UIsliderUIswitch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hung.UIsliderUIswitch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +333,7 @@
 				B278597F1D6401DD006A6916 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
